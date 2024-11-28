@@ -84,6 +84,7 @@ brushSizeForm.addEventListener('input', function(e) {
 });
 
 brushColorButton.addEventListener('input', function(e) {
+	brushColor = e.target.value;
     ctx.strokeStyle = e.target.value;
 });
 
