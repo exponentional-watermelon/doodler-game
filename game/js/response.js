@@ -1,4 +1,4 @@
-const url = 'https://3d29-85-198-104-83.ngrok-free.app';
+const url = 'https://2bf6-85-198-104-83.ngrok-free.app';
 
 async function makeResponse(url, data) {
     const response = await fetch(url, {
