@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FFF8DC;
+    font-family: "Verdana";
+    font-size: 28px;
+}
+
+::selection {
+    background: #FFFACD;
+}
+
+.svg-container {
+    width: 100%;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.svg {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: svg-draw 7s linear forwards;
+}
+
+.svg-1 {
+    animation-delay: 17s;
+}
+
+.svg-2 {
+    animation-delay: 18s;
+}
+
+.svg-3 {
+    animation-delay: 31s;
+}
+
+.svg-4 {
+    animation-delay: 3s;
+}
+
+.svg-5 {
+    animation-delay: 35s;
+}
+
+.svg-6 {
+    animation-delay: 28s;
+}
+
+.svg-7 {
+    animation-delay: 22s;
+}
+
+.svg-8 {
+    animation-delay: 2s;
+}
+
+.svg-9 {
+    animation-delay: 27s;
+}
+
+.svg-10 {
+    animation-delay: 32s;
+}
+
+.svg-11 {
+    animation-delay: 23s;
+}
+
+.svg-12 {
+    animation-delay: 11s;
+}
+
+.svg-13 {
+    animation-delay: 30s;
+}
+
+.svg-14 {
+    animation-delay: 24s;
+}
+
+.svg-15 {
+    animation-delay: 5s;
+}
+
+.svg-16 {
+    animation-delay: 20s;
+}
+
+.svg-17 {
+    animation-delay: 25s;
+}
+
+.svg-18 {
+    animation-delay: 37s;
+}
+
+.svg-19 {
+    animation-delay: 14s;
+}
+
+.svg-20 {
+    animation-delay: 13s;
+}
+
+.svg-21 {
+    animation-delay: 7s;
+}
+
+.svg-22 {
+    animation-delay: 34s;
+}
+
+.svg-23 {
+    animation-delay: 6s;
+}
+
+.svg-24 {
+    animation-delay: 19s;
+}
+
+.svg-25 {
+    animation-delay: 1s;
+}
+
+.svg-26 {
+    animation-delay: 10s;
+}
+
+.svg-27 {
+    animation-delay: 26s;
+}
+
+.svg-28 {
+    animation-delay: 15s;
+}
+
+.svg-29 {
+    animation-delay: 38s;
+}
+
+.svg-30 {
+    animation-delay: 36s;
+}
+
+.svg-31 {
+    animation-delay: 29s;
+}
+
+.svg-32 {
+    animation-delay: 8s;
+}
+
+.svg-33 {
+    animation-delay: 9s;
+}
+
+.svg-34 {
+    animation-delay: 33s;
+}
+
+.svg-35 {
+    animation-delay: 21s;
+}
+
+.svg-36 {
+    animation-delay: 4s;
+}
+
+.svg-37 {
+    animation-delay: 12s;
+}
+
+.svg-38 {
+    animation-delay: 16s;
+}
+
+
+@keyframes svg-draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100dvh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-img {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.start-button {
+    width: 160px;
+    height: 60px;
+    background: #DEB887;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.start-button:active {
+    transform: scale(0.95);
+}
+
+
+
+/* Media style */
+
+@media screen and (max-width: 1050px) {
+    .main-menu-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 20px;
+    }
+
+    .start-button {
+        width: 130px;
+        height: 40px;
+    }
+}
