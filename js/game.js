@@ -73,7 +73,7 @@ function updateProgressBar(result) {
 function processResult(result, img) {
     if (result['status'] == 'done') {
         result = result['result'];
-        if (result >= 80) {
+        if (result >= 95) {
             result = 100;
         }
         showResult(result, true);
