@@ -21,13 +21,6 @@ export async function getResult(img, index) {
         index: index
     }
 
-    try {
-        response = await makeResponse(server_url, data);
-        return response;
-    } catch (error) {
-        return {
-            status: 'error',
-            result: error
-        }
-    }
+    response = await makeResponse(server_url, data);
+    return response;
 }
