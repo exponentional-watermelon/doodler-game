@@ -1,6 +1,6 @@
 'use strict';
 
-const server_url = 'https://ethical-mouse-diverse.ngrok-free.app';
+const serverURL = 'https://ethical-mouse-diverse.ngrok-free.app';
 
 async function makeResponse(url, data) {
     const response = await fetch(url, {
