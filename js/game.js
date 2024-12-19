@@ -73,6 +73,9 @@ function updateProgressBar(result) {
 function processResult(result, img) {
     if (result['status'] == 'done') {
         result = result['result'];
+        if (result >= 80) {
+            result = 100;
+        }
         showResult(result, true);
         if (result >= bestScore) {
             bestScore = result;
